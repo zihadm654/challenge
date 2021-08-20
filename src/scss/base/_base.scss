@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  // cursor: none;
+}
+::-webkit-scrollbar {
+  width: 0.9rem !important;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(160, 160, 160);
+  border-radius: 0.8rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+html {
+  font-size: 70%;
+  @include media(sm) {
+    font-size: 37.51%;
+  }
+  @include media(md) {
+    font-size: 44%;
+  }
+  @include media(lg) {
+    font-size: 56.25%;
+  }
+  @include media(xlg) {
+    font-size: 64.5%;
+  }
+}
+body {
+  box-sizing: border-box;
+  font-family: $main-font;
+  // background: #000000;
+  color: $dominant;
+  @include flex(center);
+}
+a {
+  color: $dominant;
+}
+span {
+  color: $secondaryColor;
+  font-weight: 700;
+}
+header,
+.hero {
+  @include media(xlg) {
+    width: 100%;
+    max-width: 118rem;
+    margin: 0 auto;
+  }
+  width: 100%;
+  max-width: 140rem;
+  margin: 0 auto;
+}

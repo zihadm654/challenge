@@ -1,13 +1,18 @@
-$dominant: #050507;
-$primaryColor: #8f00ff;
-$secondaryColor: #0945df;
-$wildcard: #cf62c4;
-$red: #e20001;
-$black: #191919;
-
 //fontColor
-$fontColor: gray;
-$fontHighlight: #17b3a9;
+$text: hsl(0, 0%, 100%);
+$footer__text: hsl(240, 2%, 79%);
+$body: hsl(207, 13%, 34%);
+$footer__bg: hsl(240, 10%, 16%);
+
 //gradient color
-$primaryGradient: whitespace;
-$circle1: linear-gradient(to right, rgb(255, 255, 255), rgb(204, 204, 204));
+$primary__gradient: hsl(13, 100%, 72%);
+$secondary__gradient: hsl(353, 100%, 62%);
+
+// primary
+$cta__text: hsl(356, 100%, 66%);
+$cta__hover: hsl(355, 100%, 74%);
+$heading: hsl(208, 49%, 24%);
+
+//bg gradient
+$dark__gray: hsl(237, 17%, 21%);
+$dark__blue: hsl(237, 23%, 32%);

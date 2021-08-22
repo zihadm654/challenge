@@ -1,11 +1,37 @@
-.footer {
-  background-color: rgba(119, 117, 117, 0.555);
-  padding: 0.8rem;
+footer {
+  border-radius: 0 5rem 0 0;
+  background-color: $footer__bg;
+  padding: 4rem;
+  @include grid;
+  color: $text;
+  h4 {
+    font-weight: 500;
+  }
+  h4,
+  .product__list,
+  .company__list,
+  .contact__list {
+    h5 {
+      padding-bottom: 2rem;
+    }
+    a {
+      color: $text;
+      text-decoration: none;
+      padding: 0.25rem 0;
+    }
+    grid-column: span 3;
+    justify-self: center;
+    @include flex(flex-start);
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}
+.attribution {
+  font-size: 11px;
   text-align: center;
-  @include media(md) {
-    padding: 1rem;
-  }
-  p {
-    font-size: $sm;
-  }
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

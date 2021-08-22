@@ -1,7 +1,7 @@
 {
-  "name": "starter",
+  "name": "challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
     "start": "npm run clean && parcel public/index.html --out-dir dev -p 3000",
@@ -15,5 +15,14 @@
     "parcel-bundler": "^1.12.5",
     "rimraf": "^3.0.2",
     "sass": "^1.35.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zihadm654/challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zihadm654/challenge/issues"
+  },
+  "homepage": "https://github.com/zihadm654/challenge#readme"
 }

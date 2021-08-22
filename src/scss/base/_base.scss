@@ -4,18 +4,8 @@
   box-sizing: border-box;
   // cursor: none;
 }
-::-webkit-scrollbar {
-  width: 0.9rem !important;
-}
-::-webkit-scrollbar-thumb {
-  background: rgb(160, 160, 160);
-  border-radius: 0.8rem;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: gray;
-}
 html {
-  font-size: 70%;
+  font-size: 62.5%;
   @include media(sm) {
     font-size: 37.51%;
   }
@@ -25,32 +15,28 @@ html {
   @include media(lg) {
     font-size: 56.25%;
   }
-  @include media(xlg) {
+  @include media(xxlg) {
     font-size: 64.5%;
   }
 }
 body {
   box-sizing: border-box;
-  font-family: $main-font;
-  // background: #000000;
-  color: $dominant;
-  @include flex(center);
+  font-family: $main__font;
+  color: $body;
 }
 a {
-  color: $dominant;
+  color: $body;
 }
 span {
-  color: $secondaryColor;
   font-weight: 700;
 }
 header,
 .hero {
-  @include media(xlg) {
-    width: 100%;
-    max-width: 118rem;
+  @include media(xxlg) {
+    max-width: 150em;
     margin: 0 auto;
   }
   width: 100%;
-  max-width: 140rem;
+  max-width: 135em;
   margin: 0 auto;
 }
